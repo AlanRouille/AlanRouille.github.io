@@ -1,0 +1,18 @@
+.header {
+    height: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    &__arrow {
+        font-size: 25px;
+        @include desktop{
+            font-size: 30px;
+            justify-self: start;
+            padding: 0 0 0 70px;
+        }
+    }
+    &__logo{
+        grid-column-start: 2;
+    }
+}

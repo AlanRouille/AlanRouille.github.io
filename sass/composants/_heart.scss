@@ -1,0 +1,12 @@
+.heart {
+    cursor: pointer;
+    
+    &:hover {
+        animation: all 0.3s ease-in-out;
+        opacity: 1;
+        background:$color-gradient;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: bold;
+    }
+} 

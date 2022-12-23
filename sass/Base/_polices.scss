@@ -1,0 +1,40 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.recherche__input {
+    font-size: 19px ;
+}
+.recherche p {
+    font-weight: 300;
+    font-size: 22px;
+}
+.footer__logo {
+    font-family: 'Shrikhand', sans-serif;
+    font-weight: 200;
+}
+
+.menu-card {
+    &__title {
+        font-family: 'Shrikhand', sans-serif;
+        font-size: 27px;
+        font-weight: 200;
+    }
+    &__subtitle {
+        font-weight: 300;
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+    &__sub-subtitle {
+        font-size: 16px;
+        line-height: 1.7;
+        font-weight: 600;
+    }
+    &__txt {
+        font-size: 14px;
+    }
+    &__price {
+        font-weight: 600;
+    }
+    
+}

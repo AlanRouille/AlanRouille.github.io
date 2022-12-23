@@ -1,0 +1,52 @@
+@mixin btn {
+    font-size: 16px;
+    color:$color-txt-white;
+    padding: 16px ;
+    border-radius: 32px;
+    border: none;
+    background: $color-gradient;
+    box-shadow: $btn-shadow;
+    cursor: pointer;
+    opacity: 1;
+    transition: opacity, 200ms,linear;
+    &:hover {
+        box-shadow: $hover-shadow-btn;
+        opacity: 0.85;
+        transform: scale(1.1);
+    &:active {
+        transform: scale(1);
+    }
+    }
+
+}
+ 
+//  media querys
+
+@mixin tablet{
+    @media screen and (min-width: map-get($breakpoints, tablet))
+        {
+            @content;
+        }
+    }    
+    @mixin tablet-Only{
+        @media screen and (min-width: map-get($breakpoints, tablet)) and (max-width: map-get($breakpoints, pre-desktop))
+        {
+            @content;
+        }
+        
+    }
+    @mixin mobile-large{
+        @media screen and (min-width: map-get($breakpoints, mobile-L))
+        {
+            @content;
+        }
+            
+    }
+    
+    @mixin desktop{
+    @media screen and (min-width: map-get($breakpoints, desktop))
+        {
+        @content;
+        }
+        
+    }

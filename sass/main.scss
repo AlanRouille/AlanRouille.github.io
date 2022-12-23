@@ -1,0 +1,21 @@
+//utils
+@import "./utils/variables";
+@import "./utils/mixins";
+@import "./utils/lists";
+@import "./utils/maps";
+@import "./utils/fonctions";
+
+//base
+@import "./Base/base";
+@import "./Base/polices";
+
+@import "./composants/loader";
+@import "./composants/btn";
+@import "./composants/heart";
+
+@import "./layout/header";
+@import "./layout/recherche";
+@import "./layout/choose";
+@import "./layout/restaurant";
+@import "./layout/menu-card";
+@import "./layout/footer";
