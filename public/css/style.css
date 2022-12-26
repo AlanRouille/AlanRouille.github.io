@@ -15,13 +15,13 @@
   padding-right: 10px;
 }
 
-ul, ol {
-  list-style: none;
-}
-
 a {
   text-decoration: none;
   color: black;
+}
+
+ul, ol {
+  list-style: none;
 }
 
 body {
@@ -112,7 +112,7 @@ body {
   animation: item-3_move 1.8s cubic-bezier(0.6, 0.01, 0.4, 1);
 }
 .loader__item--4 {
-  background-color: #FAC24C;
+  background-color: #FFB100;
   bottom: 0;
   left: 0;
   animation: item-4_move 1.8s cubic-bezier(0.6, 0.01, 0.4, 1);
